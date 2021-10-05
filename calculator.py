@@ -4,6 +4,19 @@
 
 import sys
 
+def addnum(num1,num2):
+  return num1 + num2
+
+def subnum(num1,num2):
+  return num1 - num2
+
+def multnum(num1,num2):
+  return num1 * num2
+
+def divnum(num1,num2):
+  return num1 / num2
+
+
 print("This is a Simple Calculator\n")
 
 try:
@@ -25,19 +38,20 @@ print(menu)
 choice = input("\nEnter choice: ")
 
 if choice == '1':
-  result = num1 + num2
+  result = addnum(num1,num2)
   print("\nAnswer is: {}".format(result))
 elif choice == '2':
-  result = num1 - num2
+  result = subnum(num1,num2)
   print("\nAnswer is: {}".format(result))
 elif choice == '3':
-  result = num1 * num2
+  result = multnum(num1,num2)
   print("\nAnswer is: {}".format(result))
 elif choice == '4':
-  result = num1 / num2
+  result = divnum(num1,num2)
   print("\nAnswer is: {}".format(result))
 else:
   print("Invalid Choice!")
+  sys.exit()
 
 	
 
