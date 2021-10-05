@@ -25,8 +25,19 @@ print(menu)
 choice = input("\nEnter choice: ")
 
 if choice == '1':
-	result = num1 + num2
-	print("\nAnswer is: {}".format(result))
+  result = num1 + num2
+  print("\nAnswer is: {}".format(result))
+elif choice == '2':
+  result = num1 - num2
+  print("\nAnswer is: {}".format(result))
+elif choice == '3':
+  result = num1 * num2
+  print("\nAnswer is: {}".format(result))
+elif choice == '4':
+  result = num1 / num2
+  print("\nAnswer is: {}".format(result))
 else:
-	print("Feature coming soon!")
+  print("Invalid Choice!")
+
+	
 
