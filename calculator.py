@@ -28,5 +28,5 @@ if choice == '1':
 	result = num1 + num2
 	print("\nAnswer is: {}".format(result))
 else:
-	pass
+	print("Feature coming soon!")
 
