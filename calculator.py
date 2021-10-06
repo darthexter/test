@@ -17,7 +17,7 @@ def divnum(num1,num2):
   return num1 / num2
 
 def main():
-  print("This is a Simple Calculator\n")
+  print("****This is a Simple Calculator****\n")
   
   try:
     num1 = int(input("Please enter a number: "))
